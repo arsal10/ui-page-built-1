@@ -1,0 +1,303 @@
+:root {
+  --pink-color: #FF00CC;
+  --white-color:white;
+}
+
+body {
+  font-family: 'Lato', 'sans-serif';
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.display-1 {
+  padding: 25%;
+}
+
+.hero-section {
+  background: linear-gradient(to right, #333399, #ff00cc);
+  background-image: linear-gradient(to right, rgb(51, 51, 153), rgb(255, 0, 204));
+  height: 100%;
+}
+
+.roxy-brand-logo{
+  color: var(--white-color);
+  font-size: 2em;
+}
+
+.roxy-logo{
+  color:white
+}
+
+
+.nav-link {
+  color: var(--white-color);
+}
+
+.features-section {
+  margin: 5%;
+}
+
+.feature-section-title {
+  padding: 2%;
+}
+
+.feature-section-paragraph {
+  padding-bottom: 3%;
+}
+
+.gettemplates-heading {
+  color: var(--pink-color);
+  font-size: 1em;
+}
+
+.image-round {
+  justify-content: center;
+}
+
+.testimonial-quotation {
+  columns: var(--pink-color);
+}
+
+.banner-1-section {
+  background-color: rgb(104, 2, 104);
+  width: 100vw;
+  height: 100%;
+  color: var(--white-color);
+  align-items: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.testi-icon {
+  color: var(--pink-color);
+}
+
+.testi-img {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.testimonial-element {
+  padding-bottom: 2%;
+}
+
+.testimonials-section {
+  height: 100%;
+  padding: 10%;
+  margin-bottom: 10%;
+  background-image: url("/assets/bg-white.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 5%;
+}
+
+.banner-2-section {
+  background-color: rgb(104, 2, 104);
+  width: 100vw;
+  height: 100%;
+  color: var(--white-color);
+  align-items: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.section-3 {
+  height: 100%;
+  padding: 5%;
+  /* background-color: rgb(202, 55, 79);
+   */
+  background-image: linear-gradient(to right, rgb(51, 51, 153), rgb(255, 0, 204));;
+  color: var(--white-color);
+}
+
+.section-3-image {
+  bottom: 0;
+  right: 0;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+}
+
+.section-3-all-text {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.section-4 {
+  height: 100%;
+  padding: 5%;
+  margin-bottom: 5%;
+}
+
+.section-4-image {
+  bottom: 0;
+  right: 0;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+}
+
+.contact-us {
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.footer {
+  display: inline-flex;
+  width: 100%;
+  margin-top: 4%;
+  height: 10vh;
+  padding-left: 40%;
+}
+
+.footer-icons-container {
+  display: inline-flex;
+  color: var(--pink-color);
+  padding: 1%;
+  column-gap: 10px;
+  justify-content: center;
+  width: 100%;
+}
+
+.footer-container {
+  margin-top: 50px;
+  width: 100%;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.footer-paragraph {
+  text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+  .footer {
+    display: inline;
+    width: 100%;
+    margin-top: 4%;
+    height: 10vh;
+    /* padding-left: 30%; */
+    padding-left: 0%;
+  }
+
+  .footer-icons-container {
+    display: inline-flex;
+    color: var(--pink-color);
+    padding: 1%;
+    column-gap: 5px;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .footer-container {
+    margin-top: 10px;
+    width: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+}
+
+.work_with_us{
+  text-align: center;
+}
+
+.awesome-works-paragraph {
+  white-space: pre-wrap;
+  overflow: scroll;
+}
+
+.awesome-text-2 {
+  text-align: center;
+  color: var(--pink-color);
+}
+
+.navbar-toggle .icon-bar{
+  color: var(--white-color);
+}
+
+.navl{
+  color:var(--white-color)
+}
+
+.lnr-menu{
+  font-size:3em;
+}
+
+
+.awesome-paragraph {
+  text-align: center;
+  font-size: 16px;
+}
+
+
+.awesome-works {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.contact-us-bottom {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.btn {
+  width: 100%;
+}
+
+
+.section-3-button {
+  cursor: pointer;
+  border: 1px solid var(--white-color);
+  background-color: transparent;
+  height: 50px;
+  width: 150px;
+  color: var(--white-color);
+  font-size: 1em;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+  border-radius: 12px;
+}
+
+.features-button {
+  cursor: pointer;
+  border: 1px solid var(--white-color);
+  background-color: transparent;
+  height: 50px;
+  width: 150px;
+  color: var(--white-color);
+  font-size: 1em;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+  border-radius: 12px;
+}
+
+.progress-bar {
+  background-color: var(--pink-color);
+  color: white;
+}
+
+
+.koolr-logo {
+  background-image: url("/assets/client.png");
+  width: 100%;
+  height: 10vh;
+  background-repeat: repeat-x;
+  margin-top: 10%;
+}
+
+
+
+@media screen and (max-width: 700px) {
+  .koolr-logo {
+    background-image: url("/assets/client.png");
+    width: 100%;
+    height: 10vh;
+    background-repeat: no-repeat;
+    margin-top: 4%;
+    justify-content: center;
+    background-position: center;
+  }
+}
