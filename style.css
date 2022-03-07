@@ -1,12 +1,22 @@
 :root {
   --pink-color: #FF00CC;
-  --white-color:white;
+  --white-color: white;
 }
 
 body {
   font-family: 'Lato', 'sans-serif';
   font-size: 16px;
   font-weight: 300;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Work Sans', sans-serif;
+  margin-top: 0;
 }
 
 .display-1 {
@@ -17,15 +27,28 @@ body {
   background: linear-gradient(to right, #333399, #ff00cc);
   background-image: linear-gradient(to right, rgb(51, 51, 153), rgb(255, 0, 204));
   height: 100%;
+  position: relative;
 }
 
-.roxy-brand-logo{
+.roxy-brand-logo {
   color: var(--white-color);
   font-size: 2em;
+  font-size: 28px;
+  font-family: 'Lato', sans-serif;
+  font-size: 28px;
 }
 
-.roxy-logo{
-  color:white
+.roxy-logo {
+  color: white;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 9rem;
+  margin-top: 0;
+  font-weight: bold;
+  width: fit-content;
+  border: 15px solid #fff;
+  padding: 30px;
+  line-height: .9;
+  font-weight: bold;
 }
 
 
@@ -33,7 +56,7 @@ body {
   color: var(--white-color);
 }
 
-.nav-burger{
+.nav-burger {
   color: white;
   font-size: 2em;
 }
@@ -64,7 +87,7 @@ body {
 }
 
 .banner-1-section {
-  background-color: rgb(104, 2, 104);
+  background-image: linear-gradient(to right, rgb(51, 51, 153), rgb(255, 0, 204));
   width: 100vw;
   height: 100%;
   color: var(--white-color);
@@ -99,7 +122,7 @@ body {
 }
 
 .banner-2-section {
-  background-color: rgb(104, 2, 104);
+  background-image: linear-gradient(to right, rgb(51, 51, 153), rgb(255, 0, 204));
   width: 100vw;
   height: 100%;
   color: var(--white-color);
@@ -113,7 +136,8 @@ body {
   padding: 5%;
   /* background-color: rgb(202, 55, 79);
    */
-  background-image: linear-gradient(to right, rgb(51, 51, 153), rgb(255, 0, 204));;
+  background-image: linear-gradient(to right, rgb(51, 51, 153), rgb(255, 0, 204));
+  ;
   color: var(--white-color);
 }
 
@@ -167,7 +191,6 @@ body {
 }
 
 .footer-container {
-  margin-top: 50px;
   width: 100%;
   display: inline-flex;
   flex-direction: row;
@@ -176,6 +199,11 @@ body {
 
 .footer-paragraph {
   text-align: center;
+  display: inline;
+  width: 100%;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
 }
 
 @media screen and (max-width: 700px) {
@@ -207,7 +235,7 @@ body {
 
 }
 
-.work_with_us{
+.work_with_us {
   text-align: center;
 }
 
@@ -221,16 +249,17 @@ body {
   color: var(--pink-color);
 }
 
-.navbar-toggle .icon-bar{
+.navbar-toggle .icon-bar {
   color: var(--white-color);
 }
 
-.navl{
-  color:var(--white-color)
+.navl {
+  color: var(--white-color);
+  font-family: 'Lato', 'sans-serif';
 }
 
-.lnr-menu{
-  font-size:3em;
+.lnr-menu {
+  font-size: 3em;
 }
 
 
@@ -263,8 +292,12 @@ body {
   width: 150px;
   color: var(--white-color);
   font-size: 1em;
-  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
   border-radius: 12px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 30px;
+  padding: 9px 25px;
+  text-transform: capitalize;
 }
 
 .features-button {
@@ -275,8 +308,13 @@ body {
   width: 150px;
   color: var(--white-color);
   font-size: 1em;
-  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
   border-radius: 12px;
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 30px;
+  padding: 9px 25px;
+  text-transform: capitalize;
 }
 
 .progress-bar {
@@ -285,13 +323,13 @@ body {
 }
 
 
-.koolr-logo {
+/* .koolr-logo {
   background-image: url("/assets/client.png");
   width: 100%;
   height: 10vh;
   background-repeat: repeat-x;
   margin-top: 10%;
-}
+} */
 
 
 
@@ -305,4 +343,59 @@ body {
     justify-content: center;
     background-position: center;
   }
+}
+
+@media (max-width: 700px) {
+  .roxy-logo {
+    font-weight: bold;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 96px;
+    margin-top: 0;
+  }
+}
+
+.second-icons-set {
+  display: inline-flex;
+}
+
+
+.purchase-now {
+  color: var(--pink-color);
+  display: contents;
+}
+
+
+@media (max-width: 700px) {
+  .koolr-row .col:not(:first-child) {
+    display: none;
+  }
+}
+
+.koolr-row {
+  margin-top: 5%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+
+.footer-getTemplates {
+  color: var(--pink-color);
+}
+
+
+.roxy-container {
+  padding: 25%;
+}
+
+
+.navbar {
+  padding-top: 30px;
+}
+
+
+.triangle-1 {
+  size: 20px;
+  position: absolute;
+  rotate: 45;
 }
